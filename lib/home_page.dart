@@ -9,11 +9,9 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text("Catalogue App"),
-        // leading: Text("Catalogue App"),
       ),
       body: Center(
         child: SizedBox(
-          //string interpolation
           child: Text("Welcome to $days Days of Flutter by " + name),
         ),
       ),
